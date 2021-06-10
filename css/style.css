@@ -1,9 +1,9 @@
-:root {
+:root { /* couleur prédefini  */
     --main-bg-gray: #f2f2f2;
     --main-bg-blue: #0065FC;
 }
 
-*, ::before, ::after {
+*, ::before, ::after { /* Sert a inséré du contenus avant et aprés */
     box-sizing: border-box;
     margin: 0;
     padding: 0;

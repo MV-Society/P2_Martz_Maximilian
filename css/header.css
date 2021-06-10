@@ -61,7 +61,7 @@ form {
 	display: flex;
 	position: relative;
 }
-label {
+label { 
     width: 50px;
     padding: 11px;
     background: #f2f2f2;

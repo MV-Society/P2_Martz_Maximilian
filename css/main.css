@@ -92,7 +92,6 @@
 
 
 
-/*  */
 #populaire {
     width: 100%;
 	height: auto;
@@ -172,7 +171,7 @@
 
 
 
-/*  */
+/* résponsiv */
 @media (min-width: 768px) {
     /*  */
     #populaire {
