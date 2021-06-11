@@ -11,8 +11,8 @@
 body {
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(180deg, #FF79DA 27%, #9356DC 116.75%);
 }
+    
 
 .container {
     background: white;
@@ -34,5 +34,4 @@ body {
     .container, footer {
         max-width: none;
     }
-
 }
