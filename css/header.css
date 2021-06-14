@@ -48,8 +48,7 @@ ul {
 }
 
 
-
-.liste-nav li:nth-child(2),:hover
+.liste-nav li:nth-child(2):hover,
 .liste-nav li:nth-child(3):hover{
     
     border-bottom: solid 3px #0065FC;
@@ -131,6 +130,7 @@ form button span {
 	grid-template-rows: 40px 60px 60px 60px;
 	grid-row-gap: 15px;
 	grid-column-gap: 3%;
+    
 }
 .filtre h2 {
 	font-size: large;
@@ -146,6 +146,7 @@ form button span {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 .filtre button .img {
     height: 100%;
