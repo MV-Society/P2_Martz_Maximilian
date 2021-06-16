@@ -165,28 +165,6 @@
 /* résponsive */
 @media (min-width: 768px) {
 
-h1 {
-    display: flex;
-    justify-content: center;
-}
-p {
-    display: flex;
-    justify-content: center;
-}    
-form {width: 65%;}
-        
-input {padding: 21px 95px;}
-        
-form button {
-    position: relative;
-    right: 25px;
-}
-.filtre button:nth-child(2) {width: 100%;}
-        
-.filtre button:nth-child(4) {width: 100%;}
-  
-.filtre button:nth-child(5) {width: 100%;}
-        
 #populaire {
     padding: 30px 10px;
     display: grid;
@@ -301,9 +279,25 @@ a {
 }
 }
 
-
+@media (min-width: 1025px) {
     
-        
-           
-    
+main {
+    padding: 0 20px;
+    flex-direction: row;
+    column-gap: 30px;
+}
+#hebergement {
+    width: 71%;
+    background: var(--main-bg-gray);
+}
+#populaire {
+    background: var(--main-bg-gray);
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+}
+#populaire .card {
+    width: 90%;
+}
 
+}
