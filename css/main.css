@@ -290,14 +290,76 @@ main {
     width: 71%;
     background: var(--main-bg-gray);
 }
+
 #populaire {
-    background: var(--main-bg-gray);
-    width: 46%;
-    display: flex;
-    flex-direction: column;
+    width: 34%;
+	height: auto;
+	background-color: var(--main-bg-gray);
+	margin: 0;
+	padding: 35px 45px;
+
+	display: flex;
+	flex-direction: column;
 }
 #populaire .card {
-    width: 90%;
+	width: 100%;
+	height: 180px;
+	padding: 5px 0 5px 5px;
+	margin: 10px 0;
+	border-radius: 30px;
+	display: grid;
+	grid-template-columns: 47% 49.6%;
+	grid-template-rows: 56px 50px 27px;
+	align-self: center;
+	grid-column-gap: 10px;
+	grid-row-gap: 18px;
+}
+#populaire .title{
+	display: flex;
+    margin-bottom: 20px;
+	justify-content: space-between;
+    align-items: center;
+}
+#populaire .img {
+	width: 90%;
+	height: 170px;
+	border-radius: 25px 0 0 25px;
+}
+#populaire .card:nth-child(2) .img {
+    background-color: #333;
+    background: url('../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#populaire .card:nth-child(3) .img {
+    background-color: #333;
+    background: url('../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#populaire .card:nth-child(4) .img {
+    background-color: #333;
+    background: url('../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#populaire h3 {
+    font-size: medium;
+    margin-top: 15px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#populaire p {
+    font-size: smaller;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#populaire .etoile {
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
 
 }
