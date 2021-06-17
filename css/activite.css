@@ -51,7 +51,8 @@ footer h2 {
 	font-size: larger;
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 768px) { /* Media queries: Version tablette */
 
     #activite {
         height: 650px;
@@ -117,7 +118,7 @@ footer h2 {
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) { /* Media queries: Version Desktop */
     #activite {
         height: 555px;
         padding: 0 20px;
@@ -180,3 +181,4 @@ footer h2 {
         grid-template-columns: 28% 28% 28% auto;
     }
 }   
+    
