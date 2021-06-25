@@ -37,7 +37,7 @@
 	align-self: end;
     
 }
-#hebergement h3, #hebergement .etoile, #hebergement p{margin-left: 12px;}
+#hebergement h3, #hebergement .etoile, #hebergement p{margin-left: 10px;}
 
 /* (img hebergement) */
 #hebergement .img {

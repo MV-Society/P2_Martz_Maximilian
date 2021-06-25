@@ -38,7 +38,7 @@ a:visited {   /* La pseudo-classe :visited permet de modifier l'aspect d'un lien
 
     background-color: #333;
     background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: cover;
     background-position: center;
 }
 .card {cursor: pointer; background:white}
