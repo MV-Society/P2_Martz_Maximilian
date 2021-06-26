@@ -161,7 +161,7 @@ form button span {
 .filtre .img + span {
     font-size: medium;
     margin: auto;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 .filtre button:nth-child(5) .img + span {
     margin: auto;
