@@ -355,8 +355,8 @@ main {
 }
 
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,186,1) 27%, rgba(0,212,255,1) 61%);
+    background: rgb(26,83,191);
+background: linear-gradient(90deg, rgba(26,83,191,1) 0%, rgba(0,0,0,1) 50%, rgba(14,99,228,1) 100%);
 }
 }
 
