@@ -290,7 +290,6 @@ main {
     }
     .liste-nav li:nth-child(1) .item-nav {
         height: 60px;
-        margin-top: 50px;
     }
 
     h1 {
@@ -344,11 +343,20 @@ main {
     .filtre .img + span {
         font-size: small;
     }
+
+    .liste-nav li:nth-child(1){
+        margin-right: 30px;
+    }
 }
 
 @media (min-width: 1500px) {
     .container, footer {
     max-width: 1500px;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,186,1) 27%, rgba(0,212,255,1) 61%);
 }
 }
 
